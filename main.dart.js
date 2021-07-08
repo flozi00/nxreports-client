@@ -11579,7 +11579,7 @@ while(true)switch(s){case 0:q=t.N
 p=P.ax(["accept","application/json; charset=UTF-8"],q,q)
 o=P.ax(["note",a,"_id",b,"url",c,"user",d,"pas",e],q,t.z)
 s=2
-return P.a6(G.ayB(P.kJ("http://localhost:8080/write/?"+o.gfD(o).cT(0,new S.abb(),q).b3(0,"&")),p),$async$aba)
+return P.a6(G.ayB(P.kJ("https://nxreports.herokuapp.com/write/?"+o.gfD(o).cT(0,new S.abb(),q).b3(0,"&")),p),$async$aba)
 case 2:q=g.b
 if(q!==200)throw H.b(P.c9("http.post error: statusCode= "+q))
 return P.a0(null,r)}})
@@ -11590,7 +11590,7 @@ while(true)switch(s){case 0:p=t.N
 o=P.ax(["accept","application/json; charset=UTF-8"],p,p)
 n=P.ax(["url",a,"user",b,"pas",c],p,t.z)
 s=3
-return P.a6(G.ay7(P.kJ("http://localhost:8080/?"+n.gfD(n).cT(0,new S.aaD(),p).b3(0,"&")),o),$async$aaC)
+return P.a6(G.ay7(P.kJ("https://nxreports.herokuapp.com/?"+n.gfD(n).cT(0,new S.aaD(),p).b3(0,"&")),o),$async$aaC)
 case 3:m=e
 p=m.b
 if(p!==200)throw H.b(P.c9("http.post error: statusCode= "+p))
