@@ -63596,7 +63596,7 @@ M4:function(){var s=null,r="https://domain.com",q="Username",p="Password",o="Dat
 return T.fK(H.a([O.Up(new T.db(C.fS,T.fK(H.a([S.DJ(L.uR(s,new F.e5(4,C.bk,C.aS),new V.aB(0,10,0,0),s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,"Server adress of your nextcloud instance",s,s,r,s,s,L.iP(C.cQ,s,s),!1,s,s,"Server Adresse",s,s,s,s,s,s,s,s,s,s,s),!0,s,1,s,"Server Adress"),T.cs(s,10,s),S.DJ(L.uR(s,new F.e5(4,C.bk,C.aS),new V.aB(0,10,0,0),s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,"Username of your nextcloud user",s,s,"username",s,s,L.iP(C.cQ,s,s),!1,s,s,q,s,s,s,s,s,s,s,s,s,s,s),!0,s,1,s,q),T.cs(s,10,s),S.DJ(L.uR(s,new F.e5(4,C.bk,C.aS),new V.aB(0,10,0,0),s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,"Password of your nextcloud user",s,s,"*********",s,s,L.iP(C.cQ,s,s),!1,s,s,p,s,s,s,s,s,s,s,s,s,s,s),!0,s,1,s,p),T.cs(s,10,s),S.DJ(L.uR(s,new F.e5(4,C.bk,C.aS),new V.aB(0,10,0,0),s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,!0,s,s,"Server adress of the Server to process the data",s,s,r,s,s,L.iP(C.cQ,s,s),!1,s,s,o,s,s,s,s,s,s,s,s,s,s,s),!0,"https://nxreports.herokuapp.com",1,s,o)],m),C.a2,C.am,C.an),s),n),T.cs(s,15,s),U.aeJ(L.iP(C.h0,s,18),L.bP("Login",s,s,s,s,s,s),new F.a7E(this)),T.cs(s,25,s)],m),C.a2,C.l6,C.an)},
 ut:function(){return T.fK(H.a([new B.x6(C.er,100,null)],t.D),C.a2,C.en,C.an)},
 P2:function(){var s,r=this,q=null,p=r.k4,o=r.k3
-p=p<=o?p*0.8:o*0.8
+p=p<=o?p*0.8-35:o*0.8
 p=M.eF(q,new T.db(C.dV,new D.wX(C.r,5,new F.a7G(r),r.k1),q),C.t,C.jN,q,q,q,p,q,q,q,q,q)
 o=r.fy.buffer
 o=o.byteLength===0?M.eF(q,q,C.t,q,q,q,q,q,q,q,q,q,q):T.aic(new U.uJ(M.atD(q,q,new M.kl(H.cx(o,0,q),1)),q),200,1/0)
