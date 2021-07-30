@@ -17017,7 +17017,7 @@ aAV:function(a,b){var s,r,q,p,o,n=null,m=null
 try{m=t.f.a(C.a2.ps(0,a,n))}catch(s){H.P(s)
 r=t.z
 m=P.v(r,r)}q=H.a([],t.D)
-for(p=0;p<8;++p){o=$.aAW[p]
+for(p=0;p<9;++p){o=$.aAW[p]
 q.push(Q.anr(m,o,b))
 q.push(new T.fy(n,12,n,n))}r=$.ahm()
 return O.Va(new T.de(C.fU,T.fX(q,C.a3,C.am,C.an),n),r)},
@@ -70552,7 +70552,7 @@ $.acL=null
 $.adj=null
 $.amv=null
 $.aiY=P.v(t.N,t.y)
-$.aAW=H.a(["Name","Geburtsdatum","Adresse","Telefon","Kontaktpersonen","Medikamente","Diagnosen","Besonderheiten"],t.s)
+$.aAW=H.a(["Name","Geburtsdatum","Adresse","Telefon","E-mail","Kontaktpersonen","Medikamente","Diagnosen","Sonstiges"],t.s)
 $.anO=H.a(["Auftragsnummer","Bericht","Zeit"],t.s)
 $.ams=null
 $.abV=null
