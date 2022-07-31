@@ -21616,7 +21616,7 @@ var $async$akk=A.Q(function(b,c){if(b===1)return A.M(c,r)
 while(true)switch(s){case 0:p=t.N
 o=A.au(["Accept","*/*","Accept-Language","de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7","Connection","keep-alive","Content-Type","application/json","Accept-Encoding","gzip"],p,p)
 s=3
-return A.R(A.ano(A.fv("https://asr.a-ware.io/api/predict/",0,null),'{"fn_index": 0, "data": [{"data": "data:audio/wav;base64,'+a+'", "name": "audio.wav"}]}',o),$async$akk)
+return A.R(A.ano(A.fv("https://asr.a-ware.io/api/predict/",0,null),'{"fn_index": 0, "data": [{"data": "data:audio/wav;base64,'+a+'", "name": "audio.wav"}, "german", []]}',o),$async$akk)
 case 3:n=c
 p=n.b
 if(p!==200)throw A.c(A.co("http.post error: statusCode= "+p))
